@@ -3,9 +3,9 @@
 mode_presentation("1");
 mode_evaluation("1");
 mode_sauvegarde("1");
-code(" "," ");
-code(" "," ");
-titre("Science de l'électrité");
+//code(" "," ");
+//code(" "," ");
+titre("St Luc : Science de l'électrité");
 introduction("Évaluez vos connaissances.");
 introduction("Thèmes abordés : Designer en Bac1 Bac2 et Bac3.");
 //introduction("Identifiant : \"\" | Mot de passe : \"\".");

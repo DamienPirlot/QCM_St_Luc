@@ -20,10 +20,10 @@ coef_rep_fausse("-1");
 coef_rep_nulle("0");
 note_sur("20");
 
-appreciation("16","20","Excellent ! Vous maîtrisez parfaitement les machines électriques.");
+appreciation("16","20","Excellent ! Vous maîtrisez parfaitement le sujet.");
 appreciation("13","16","Bon travail ! Vos bases sont solides.");
-appreciation("10","13","Ensemble moyen, revoyez les couplages et les principes de glissement.");
-appreciation("0","10","Révisez les documents techniques sur les moteurs triphasés et CC.");
+appreciation("10","13","Ensemble moyen, revoyez vos bases.");
+appreciation("0","10","Révisez les documents en profondeur.");
 
 juste("Parfait !||Excellent !||Juste !||Correct !||Bravo !");
 faux("Non...||Faux...||Erreur...||Inexact...");

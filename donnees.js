@@ -38,7 +38,7 @@ chronometre("60","Le temps est écoulé !");
 // SECTION : Bac1 : Le courant continu
 // ====================================================================================
 
-theme(" Bac1 : Courant Continu (DC)");
+theme("Bac1 : Courant Continu (DC)");
 
 debut("Le courant fourni par les piles et batteries.");
 

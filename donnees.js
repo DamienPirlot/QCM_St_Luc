@@ -4,15 +4,15 @@ mode_presentation("1");
 mode_evaluation("1");
 mode_sauvegarde("1");
 code(" "," ");
-code("essai","essai");
-titre("Moteurs Électriques Industriels et Domestiques");
-introduction("Évaluez vos connaissances sur les différents types de moteurs.");
-introduction("Thèmes abordés : Triphasé, Synchrone/Asynchrone, CC et Universel.");
+code(" "," ");
+titre("Science de l'électrité");
+introduction("Évaluez vos connaissances.");
+introduction("Thèmes abordés : Designer en Bac1 Bac2 et Bac3.");
 introduction("Identifiant : \"\" | Mot de passe : \"\".");
 
-nombre_questions("1", "2", "3");
+nombre_questions("10", "20", "50");
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
-fenetre_info("test","ISL");
+fenetre_info("test","St Luc ");
 url_quitter("http://dyris.free.fr/");
 
 coef_rep_juste("2");
@@ -1282,7 +1282,7 @@ rep("[ ] Le couple devient nul et la température diminue");
 rep("[x] Le courant dans l’induit devient très élevé et risque d’endommager le moteur");
 rep("[ ] Le moteur génère spontanément du courant");
 
-theme("Pannes des systèmes frigorifiques");
+theme("5 - 6 TQfrPannes des systèmes frigorifiques");
 debut("Dépannage commun des systèmes frigorifique.");
 
 quest("P001 - Surchauffe importante, sous-refroidissement faible et BP faible sont les symptôme de :");

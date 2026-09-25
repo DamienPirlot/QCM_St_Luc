@@ -10,7 +10,7 @@ introduction("Évaluez vos connaissances.");
 introduction("Thèmes abordés : Designer en Bac1 Bac2 et Bac3.");
 //introduction("Identifiant : \"\" | Mot de passe : \"\".");
 
-nombre_questions("10", "20", "50", "100");
+nombre_questions("5", "10", "20", "50", "100");
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
 fenetre_info("test","St Luc ");
 url_quitter("http://dyris.free.fr/");

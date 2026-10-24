@@ -365,6 +365,344 @@ rep("[x] La borne COM");
 aj("images/Multi01.png");
 
 // ====================================================================================
+// SECTION : Bac2 : Le magnétisme
+// ====================================================================================
+
+
+theme("Bac 2 : Magnétisme - Champ créé par un courant");
+ 
+debut("Sens du champ magnétique en fonction du courant dans un fil, une spire et une bobine.");
+ 
+quest("Mag01 : Quand on branche un fil placé au-dessus d'une boussole, l'aiguille dévie. Que montre cette expérience (Oersted) ?//a");
+rep("[ ] Un fil chaud attire l'aiguille");
+rep("[x] Un courant électrique crée un champ magnétique");
+rep("[ ] L'aiguille crée un courant dans le fil");
+rep("[ ] Le champ terrestre s'inverse");
+aj("images/Magnetisme.png");
+
+
+quest("Mag02 : Un fil vertical est parcouru par un courant dirigé vers le haut. Vu de dessus, les lignes de champ sont ://a");
+rep("[ ] Des droites parallèles au fil");
+rep("[ ] Des cercles concentriques parcourus dans le sens horaire");
+rep("[x] Des cercles concentriques parcourus dans le sens anti-horaire");
+rep("[ ] Des rayons partant du fil");
+aj("images/Magnetisme.png");
+ 
+quest("Mag03 : Un fil horizontal orienté Nord-Sud passe au-dessus d'une boussole. Le courant circule vers le Nord. Le pôle Nord de l'aiguille dévie vers ://a");
+rep("[ ] L'Est");
+rep("[ ] Le haut");
+rep("[ ] Il ne dévie pas");
+rep("[x] L'Ouest");
+aj("images/Magnetisme.png");
+ 
+quest("Mag04 : Règle de la main droite appliquée à une bobine : les doigts suivent le sens du courant, le pouce indique ://a");
+rep("[x] Le pôle Nord de la bobine (sens du champ à l'intérieur)");
+rep("[ ] Le sens du courant");
+rep("[ ] Le pôle Sud de la bobine");
+rep("[ ] La force exercée sur la bobine");
+aj("images/Magnetisme.png");
+ 
+quest("Mag05 : Une spire vue de face est parcourue par un courant dans le sens anti-horaire. La face que l'on regarde est ://a");
+rep("[ ] Une face Sud");
+rep("[x] Une face Nord");
+rep("[ ] Une face neutre");
+rep("[ ] Nord ou Sud selon l'intensité");
+aj("images/Magnetisme.png");
+ 
+quest("Mag06 : Même spire, mais le courant circule maintenant dans le sens horaire. La face que l'on regarde est ://a");
+rep("[ ] Une face Nord");
+rep("[ ] Une face neutre");
+rep("[x] Une face Sud");
+rep("[ ] Alternativement Nord et Sud");
+aj("images/Magnetisme.png");
+ 
+quest("Mag07 : Une spire est posée à l'horizontale. Vue de dessus, le courant circule dans le sens horaire. À l'intérieur de la spire, le champ est dirigé ://a");
+rep("[ ] Vers le haut");
+rep("[x] Vers le bas");
+rep("[ ] Horizontalement vers la droite");
+rep("[ ] Il est nul");
+aj("images/Magnetisme.png");
+ 
+quest("Mag08 : On permute les deux fils reliés à la pile qui alimente la spire. Que devient le champ magnétique ?//a");
+rep("[ ] Il s'annule");
+rep("[ ] Il double");
+rep("[x] Son sens s'inverse, sa valeur reste la même");
+rep("[ ] Il ne change pas");
+aj("images/Magnetisme.png");
+ 
+quest("Mag09 : On double l'intensité du courant dans la spire. Le champ magnétique est ://a");
+rep("[x] Multiplié par 2");
+rep("[ ] Multiplié par 4");
+rep("[ ] Divisé par 2");
+rep("[ ] Inchangé");
+ 
+quest("Mag10 : À l'intérieur d'un long solénoïde, les lignes de champ sont ://a");
+rep("[ ] Des cercles concentriques");
+rep("[x] Des droites parallèles à l'axe, avec un champ quasi uniforme");
+rep("[ ] Des rayons partant de l'axe");
+rep("[ ] Absentes");
+aj("images/Magnetisme.png");
+ 
+quest("Mag11 : Un solénoïde de 200 spires, long de 0,5 m, est parcouru par un courant de 2 A. Avec B = mu0 x n x I et mu0 = 1,26 x 10 puissance -6 T.m/A, que vaut B ?//a");
+rep("[ ] 4 mT");
+rep("[ ] 0,25 mT");
+rep("[ ] 0,1 mT");
+rep("[x] 1,0 mT");
+ 
+quest("Mag12 : Comment augmenter le champ d'un électro-aimant sans augmenter le courant ?//a");
+rep("[ ] Espacer les spires");
+rep("[ ] Retirer le noyau");
+rep("[x] Ajouter des spires serrées et un noyau de fer doux");
+rep("[ ] Utiliser un fil plus fin sans changer le nombre de spires");
+ 
+quest("Mag13 : Quel est le rôle du noyau de fer doux dans un électro-aimant ?//a");
+rep("[x] Il concentre le champ et ne reste aimanté que tant que le courant passe");
+rep("[ ] Il isole le fil");
+rep("[ ] Il refroidit la bobine");
+rep("[ ] Il augmente la résistance du fil");
+ 
+quest("Mag14 : À propos des lignes de champ d'un aimant ou d'une bobine ://a");
+rep("[ ] Elles partent du Nord, arrivent au Sud et s'arrêtent");
+rep("[ ] Elles se croisent aux pôles");
+rep("[ ] Elles sortent du pôle Sud");
+rep("[x] Elles sortent du pôle Nord, entrent par le Sud et se referment à l'intérieur");
+aj("images/Magnetisme.png");
+ 
+quest("Mag15 : L'extrémité A d'une bobine parcourue par un courant attire le pôle Sud de l'aiguille d'une boussole. L'extrémité A est ://a");
+rep("[ ] Un pôle Sud");
+rep("[x] Un pôle Nord");
+rep("[ ] Neutre");
+rep("[ ] Impossible à déterminer");
+aj("images/Magnetisme.png");
+
+
+
+theme("Bac 2 : Magnétisme - Loi de Lenz");
+ 
+debut("Induction électromagnétique : produire un courant avec un champ magnétique variable.");
+ 
+quest("Lenz01 : Pour qu'une f.é.m. apparaisse dans une bobine, il faut ://a");
+rep("[ ] Un aimant très puissant");
+rep("[ ] Une bobine en cuivre massif");
+rep("[x] Une variation du flux magnétique à travers la bobine");
+rep("[ ] Un courant continu dans la bobine");
+aj("images/Lenz.png");
+ 
+quest("Lenz02 : Un aimant reste immobile au milieu de la bobine. Le galvanomètre indique ://a");
+rep("[ ] Un courant maximal");
+rep("[x] Zéro");
+rep("[ ] Un courant alternatif");
+rep("[ ] Un courant qui dépend de la polarité de l'aimant");
+aj("images/Lenz.png");
+ 
+quest("Lenz03 : Quelle est la différence entre la loi de Faraday et la loi de Lenz ?//a");
+rep("[x] Faraday donne la valeur de la f.é.m., Lenz donne le sens du courant induit");
+rep("[ ] Faraday donne le sens, Lenz donne la valeur");
+rep("[ ] C'est la même loi");
+rep("[ ] Faraday concerne le continu, Lenz l'alternatif");
+ 
+quest("Lenz04 : Énoncé de la loi de Lenz ://a");
+rep("[ ] Le courant induit s'ajoute à la variation de flux");
+rep("[ ] Le courant induit est toujours nul");
+rep("[ ] Le flux est toujours constant");
+rep("[x] Le courant induit s'oppose à la variation de flux qui lui donne naissance");
+ 
+quest("Lenz05 : On approche le pôle Nord d'un aimant d'une bobine. La face de la bobine tournée vers l'aimant devient ://a");
+rep("[ ] Un pôle Sud");
+rep("[x] Un pôle Nord");
+rep("[ ] Neutre");
+rep("[ ] Alternativement Nord et Sud");
+aj("images/Lenz.png");
+ 
+quest("Lenz06 : On éloigne ensuite l'aimant. La face de la bobine tournée vers l'aimant devient ://a");
+rep("[ ] Neutre");
+rep("[ ] Un pôle Nord");
+rep("[x] Un pôle Sud");
+rep("[ ] Elle ne change pas");
+aj("images/Lenz.png");
+ 
+quest("Lenz07 : Pourquoi faut-il fournir un effort pour enfoncer l'aimant dans une bobine fermée sur une lampe ?//a");
+rep("[x] Conservation de l'énergie : le travail mécanique est converti en énergie électrique");
+rep("[ ] À cause des frottements de l'air");
+rep("[ ] L'aimant devient plus lourd");
+rep("[ ] La bobine est magnétique");
+ 
+quest("Lenz08 : On enfonce l'aimant deux fois plus vite. La f.é.m. induite est ://a");
+rep("[ ] Divisée par 2");
+rep("[ ] Inchangée");
+rep("[x] Multipliée par 2");
+rep("[ ] Multipliée par 4");
+ 
+quest("Lenz09 : On double le nombre de spires de la bobine. La f.é.m. induite est ://a");
+rep("[ ] Divisée par 2");
+rep("[ ] Inchangée");
+rep("[ ] Multipliée par 4");
+rep("[x] Multipliée par 2");
+ 
+quest("Lenz10 : Une boucle de 20 cm2 sort d'un champ de 0,5 T en 0,2 s. Quelle est la f.é.m. moyenne induite ?//a");
+rep("[ ] 0,5 V");
+rep("[x] 5 mV");
+rep("[ ] 50 mV");
+rep("[ ] 0,5 mV");
+aj("images/Lenz.png"); 
+
+quest("Lenz11 : Une tige de 0,2 m glisse à 3 m/s sur deux rails dans un champ de 0,5 T (e = B x L x v). La f.é.m. vaut ://a");
+rep("[ ] 3 V");
+rep("[ ] 1,2 V");
+rep("[x] 0,3 V");
+rep("[ ] 0,03 V");
+aj("images/Lenz.png");
+ 
+quest("Lenz12 : Que sont les courants de Foucault ?//a");
+rep("[ ] Des courants de fuite vers la terre");
+rep("[ ] Des courants circulant dans l'aimant");
+rep("[ ] Des courants continus dans un câble");
+rep("[x] Des boucles de courant induites dans une masse métallique soumise à un flux variable");
+ 
+quest("Lenz13 : Un aimant lâché dans un tube de cuivre tombe très lentement. Pourquoi ?//a");
+rep("[ ] Le cuivre est magnétique et attire l'aimant");
+rep("[ ] L'air du tube est chaud");
+rep("[x] Les courants de Foucault induits freinent l'aimant (loi de Lenz)");
+rep("[ ] L'aimant se désaimante");
+aj("images/Lenz.png");
+ 
+quest("Lenz14 : Une boucle tourne à vitesse constante dans un champ uniforme. Le courant induit est maximal quand le plan de la boucle est ://a");
+rep("[ ] Perpendiculaire aux lignes de champ");
+rep("[x] Parallèle aux lignes de champ");
+rep("[ ] À 45 degrés des lignes de champ");
+rep("[ ] Le courant est toujours constant");
+aj("images/Lenz.png");
+ 
+quest("Lenz15 : Pourquoi un transformateur ne fonctionne-t-il pas en courant continu ?//a");
+rep("[x] Le flux est constant : pas de variation, donc pas de f.é.m. induite au secondaire");
+rep("[ ] Le cuivre ne conduit pas le continu");
+rep("[ ] La tension serait trop élevée");
+rep("[ ] Le noyau fondrait immédiatement");
+aj("images/Lenz.png");
+ 
+quest("Lenz16 : Un chargeur de téléphone sans fil fonctionne parce que ://a");
+rep("[ ] Le téléphone contient un aimant");
+rep("[x] Un courant alternatif dans la bobine émettrice crée un flux variable qui induit une f.é.m. dans la bobine du téléphone");
+rep("[ ] Le courant passe par l'air");
+rep("[ ] Le téléphone chauffe la bobine émettrice");
+aj("images/Lenz.png");
+ 
+
+
+// ====================================================================================
+// SECTION : Magnetisme - Loi de Laplace
+// ====================================================================================
+ 
+theme("Bac 2 : Magnétisme - Loi de Laplace");
+ 
+debut("Force exercée sur un courant placé dans un champ magnétique : principe du moteur.");
+ 
+quest("Lap01 : Un conducteur parcouru par un courant et placé dans un champ magnétique subit ://a");
+rep("[ ] Une dilatation");
+rep("[ ] Une f.é.m. induite");
+rep("[x] Une force (force de Laplace)");
+rep("[ ] Un refroidissement");
+aj("images/Laplace.png");
+ 
+quest("Lap02 : Dans la formule F = B x I x L x sin(alpha), le champ B s'exprime en ://a");
+rep("[x] Tesla");
+rep("[ ] Weber");
+rep("[ ] Henry");
+rep("[ ] Newton");
+ 
+quest("Lap03 : La force de Laplace est maximale quand ://a");
+rep("[ ] Le fil est parallèle au champ");
+rep("[x] Le fil est perpendiculaire au champ");
+rep("[ ] Le fil est à 45 degrés du champ");
+rep("[ ] Le courant est nul");
+aj("images/Laplace.png");
+ 
+quest("Lap04 : La force de Laplace est nulle quand ://a");
+rep("[ ] Le fil est perpendiculaire au champ");
+rep("[ ] Le champ est maximal");
+rep("[ ] Le courant est maximal");
+rep("[x] Le fil est parallèle aux lignes de champ");
+ 
+quest("Lap05 : Un fil de 0,2 m, traversé par 10 A, est perpendiculaire à un champ de 0,05 T. Quelle est la force ?//a");
+rep("[x] 0,1 N");
+rep("[ ] 1 N");
+rep("[ ] 0,01 N");
+rep("[ ] 0,5 N");
+ 
+quest("Lap06 : Un fil de 0,5 m traversé par 4 A fait un angle de 30 degrés avec un champ de 0,2 T. La force vaut ://a");
+rep("[ ] 0,4 N");
+rep("[ ] 0,35 N");
+rep("[ ] 0,1 N");
+rep("[x] 0,2 N");
+ 
+quest("Lap07 : On place trois axes : Est, Nord et haut. Le courant circule vers le Nord et le champ est dirigé vers le haut. La force est dirigée vers (règle : pouce = courant, index = champ, majeur = force) ://a");
+rep("[ ] L'Ouest");
+rep("[x] L'Est");
+rep("[ ] Le haut");
+rep("[ ] Le bas");
+aj("images/Laplace.png");
+ 
+quest("Lap08 : On inverse le sens du courant, le champ restant identique. La force ://a");
+rep("[ ] Reste identique");
+rep("[ ] Double");
+rep("[x] Change de sens");
+rep("[ ] S'annule");
+ 
+quest("Lap09 : On inverse à la fois le sens du courant et le sens du champ. La force ://a");
+rep("[x] Garde le même sens");
+rep("[ ] Change de sens");
+rep("[ ] S'annule");
+rep("[ ] Double");
+ 
+quest("Lap10 : On double le courant et on triple la longueur de fil placée dans le champ. La force est multipliée par ://a");
+rep("[ ] 5");
+rep("[x] 6");
+rep("[ ] 1,5");
+rep("[ ] 9");
+ 
+quest("Lap11 : Dans la roue de Barlow, on retourne l'aimant en fer à cheval. Le disque ://a");
+rep("[ ] Tourne dans le même sens");
+rep("[ ] S'arrête");
+rep("[ ] Tourne plus vite");
+rep("[x] Tourne en sens inverse");
+aj("images/Laplace.png");
+ 
+quest("Lap12 : Dans un moteur à courant continu, à quoi servent le collecteur et les balais ?//a");
+rep("[ ] À refroidir le moteur");
+rep("[x] À inverser le courant dans la bobine à chaque demi-tour pour que la rotation continue dans le même sens");
+rep("[ ] À créer le champ magnétique");
+rep("[ ] À mesurer la vitesse");
+aj("images/Laplace.png");
+ 
+quest("Lap13 : Dans le moteur homopolaire (pile, aimant, fil), on retourne l'aimant ET on inverse la pile. Le sens de rotation ://a");
+rep("[ ] S'inverse");
+rep("[ ] Disparaît");
+rep("[x] Reste inchangé");
+rep("[ ] Accélère");
+aj("images/Laplace.png");
+ 
+quest("Lap14 : Dans un haut-parleur alimenté par un signal audio alternatif ://a");
+rep("[x] La force sur la bobine change de sens au rythme du signal, d'où la vibration de la membrane");
+rep("[ ] La bobine reçoit une force de sens constant");
+rep("[ ] L'aimant tourne");
+rep("[ ] La membrane est attirée en permanence");
+ 
+quest("Lap15 : Quelle affirmation est correcte ?//a");
+rep("[ ] Laplace et Lenz décrivent tous deux un moteur");
+rep("[ ] Laplace : mouvement vers courant ; Lenz : courant vers mouvement");
+rep("[ ] Laplace et Lenz décrivent tous deux un générateur");
+rep("[x] Laplace : courant vers mouvement (moteur) ; Faraday-Lenz : mouvement vers courant (générateur)");
+aj("images/Laplace.png");
+ 
+quest("Lap16 : Deux fils parallèles sont parcourus par des courants de même sens. Ils ://a");
+rep("[x] S'attirent");
+rep("[ ] Se repoussent");
+rep("[ ] Ne s'influencent pas");
+rep("[ ] Tournent l'un autour de l'autre");
+aj("images/Laplace.png");
+
+
+// ====================================================================================
 // SECTION : Bac2 : Protections des personnes
 // ====================================================================================
 
